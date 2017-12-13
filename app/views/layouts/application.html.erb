@@ -4,13 +4,19 @@
     <title>CatalogShop</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   </head>
 
   <body>
-    <%= yield %>
+      <%= render partial: 'shared/header' %>
+      <main>
+        <%= yield %>
+      </main>
+      <%= render partial: 'shared/footer' %>
   </body>
 </html>
