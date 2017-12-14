@@ -36,6 +36,10 @@ gem 'materialize-sass'
 gem 'toastr-rails'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
+gem 'omniauth', '~> 1.7', '>= 1.7.1'
+gem 'omniauth-google-oauth2', '~> 0.5.2'
+gem 'omniauth-facebook', '~> 4.0'
+gem 'omniauth-twitter', '~> 1.4'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
