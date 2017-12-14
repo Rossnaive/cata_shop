@@ -12,8 +12,9 @@
 //
 //= require rails-ujs
 //= require jquery
+//= require active_admin
 //= require jquery_ujs
 //= require materialize
 //= require materialize-sprockets
 //= require toastr
-//= require_tree 
+//= require_tree
